@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffdfeaf1">
+
+    <TextView android:text="@string/my_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/media_streamer"
+        android:id="@+id/button1"
+        style="@style/AppButtonOthers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/myTitle"
+        android:onClick="sendMessage" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/super_duo1"
+        android:id="@+id/button2"
+        style="@style/AppButtonOthers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button1"
+        android:onClick="sendMessage" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/super_duo2"
+        android:id="@+id/button3"
+        style="@style/AppButtonOthers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button2"
+        android:onClick="sendMessage" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/ant_terminator"
+        android:id="@+id/button4"
+        style="@style/AppButtonOthers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button3"
+        android:onClick="sendMessage" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/materialize"
+        android:id="@+id/button5"
+        style="@style/AppButtonOthers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button4"
+        android:onClick="sendMessage" />
+
+    <Button
+    android:layout_height="wrap_content"
+    android:text="@string/capstone"
+    android:id="@+id/button6"
+    style="@style/AppButtonOwn"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/button5"
+        android:onClick="sendMessage" />
+
+
+</RelativeLayout>
